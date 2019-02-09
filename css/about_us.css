@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 90px auto 120px;
+}
+
+.row-section {
+    display: flex;
+    justify-content: center;
+}
+
+.row-section a {
+    width: 380px;
+    height: 250px;
+    margin: 0 30px;
+    background-color: #95e1d3;
+    opacity: 1;
+}
+
+.about-img:hover {
+    box-shadow:
+      1px 1px #95e1d3,
+      2px 2px #95e1d3,
+      3px 3px #95e1d3,
+      4px 4px #95e1d3,
+      5px 5px #95e1d3,
+      6px 6px #95e1d3,
+      7px 7px #95e1d3;
+    transform: translateX(-7px);
+    transform: translateY(-7px);
+    transition: 0.3s ease;
+}
